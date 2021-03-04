@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout
+    tools:context=".ReadingQuiz"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/holo_orange_dark">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="36sp"
+        android:textColor="#2F48D5"
+        android:padding="24dp"
+        android:id="@+id/questions"
+        android:fontFamily="@font/fredoka_one_regular"
+        />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/nextButton"
+        android:text="@string/next_button"
+        android:fontFamily="@font/fredoka_one_regular"
+        android:textColor="@android:color/black"/>
+
+</LinearLayout>
